@@ -46,3 +46,6 @@ USING THE PLUGIN (Needs jQuery)
             "color" is the color of the background of the legend,
             
             "description" is the array of descriptions for the bindings
+
+
+For downloading the images go to: http://bit.ly/19abcgB
