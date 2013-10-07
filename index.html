@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jCMDBind Example</title>
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jCMDBind-1.0.js"></script>
+<script>
+	function func1(){
+		alert("You get function 1");
+	}
+	function func2(){
+		alert("You get function 2");
+	}
+</script>
+<script>
+	var bindings = {
+		"m": "func1()",
+		"n": "func2()",
+	};
+	
+	var descriptions = Array(
+		"This letter executes function 1",
+		"This letter executes function 2",
+	);
+</script>
+</head>
+<body onLoad="shortCuts(bindings,true,'displayLegend','#333',descriptions);">
+	<div id="displayLegend"></aside>
+</body>
+</html>
