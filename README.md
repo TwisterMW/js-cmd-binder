@@ -49,4 +49,6 @@ USING THE PLUGIN (Needs jQuery)
             "description" is the array of descriptions for the bindings
 
 
-For downloading the images go to: http://bit.ly/19abcgB
+For using in advanced mode, you need to download the images associate to the keys, for displaying the legend.
+
+Go to: http://bit.ly/19abcgB
