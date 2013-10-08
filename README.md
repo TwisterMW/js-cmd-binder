@@ -33,7 +33,8 @@ USING THE PLUGIN (Needs jQuery)
 - Calling function:
 
 1) Simple usage: "body onLoad="shortCuts(bindings);"
-      where "bindings" is the associative array previously defined.
+      
+      where "bindings" is the associative array previously defined,
       
 2) Advanced usage: "body onLoad="shortCuts(bindings,true,'div','color',descriptions);"
 
