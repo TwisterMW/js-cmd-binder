@@ -51,4 +51,4 @@ USING THE PLUGIN (Needs jQuery)
 
 For using in advanced mode, you need to download the images associate to the keys, for displaying the legend.
 
-Go to: http://bit.ly/19abcgB
+Go to: http://bit.ly/19abcgB for downloading it!
