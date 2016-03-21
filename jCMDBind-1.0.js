@@ -35,7 +35,7 @@ function bindingsPanel(color,container,bindings,descriptions){
 	var innerHTML = "<table style='text-align:left;vertical-align:middle;margin:0px auto;'>";
 	var i = 0;
 	for (var bind in bindings){
-		innerHTML += "<tr><td style='width:30px;'><img src='img/keys/"+bind.toUpperCase()+".png' style='height:32px;' /></td><td>"+descriptions[i]+"</td></tr>";
+		innerHTML += "<tr><td style='width:30px;'>"+bind.toUpperCase()+"</td><td>"+descriptions[i]+"</td></tr>";
 		i++;
 	}
 	innerHTML += "</table>";
