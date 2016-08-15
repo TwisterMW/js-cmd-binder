@@ -1,0 +1,18 @@
+{
+  "name": "js-cmd-binder",
+  "description": "Javascript Library for bind commands to keys for making shortcuts.",
+  "main": "index.html",
+  "authors": [
+    "TwisterMW <marc.hernandez@twiscript.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TwisterMW/angular-fc-seedproject",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}
