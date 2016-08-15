@@ -1,31 +1,17 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>jCMDBind Example</title>
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="jCMDBind-1.0.js"></script>
-<script>
-	function func1(){
-		alert("You get function 1");
-	}
-	function func2(){
-		alert("You get function 2");
-	}
-</script>
-<script>
-	var bindings = {
-		"m": "func1()",
-		"n": "func2()",
-	};
-	
-	var descriptions = Array(
-		"This letter executes function 1",
-		"This letter executes function 2"
-	);
-</script>
+	<meta charset="utf-8">
+	<title>jCMDBind Example</title>
+	<link rel="stylesheet" href="css/main.css" />
 </head>
-<body onLoad="shortCuts(bindings,true,'displayLegend','#333',descriptions);">
+<body onLoad="shortCuts(bindings, true, 'displayLegend', '#333', descriptions);">
 	<div id="displayLegend"></aside>
+
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<!-- endbower -->
+	<script src="src/jsCmdBinder.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
